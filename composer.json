@@ -1,0 +1,22 @@
+{
+    "name": "pve/module-phpinfoviewer",
+    "description": "Renders PHPinfo in admin area to help configure and check server settings.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "patrickvanefferen@gmail.com",
+            "name": "Patrick van Efferen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pve\\PhpinfoViewer\\": ""
+        },
+        "files": [
+          "registration.php"
+        ]
+    }
+}

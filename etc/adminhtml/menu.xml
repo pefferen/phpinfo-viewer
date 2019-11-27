@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add action="phpinfo" id="Pve_PhpinfoViewer::index_index" title="PHP configuration" translate="title" module="Pve_PhpinfoViewer" parent="Magento_Backend::system_tools" resource="Pve_PhpinfoViewer::phpinfo" sortOrder="9999"/>
+	</menu>
+</config>
